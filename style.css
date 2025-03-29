@@ -25,6 +25,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-color: #d6e2f0;
   color: #2e3d59;
   width: 100vw;
@@ -103,4 +104,20 @@ p {
     margin-bottom: 30px;
     font-size: 1vw;
   }
+}
+
+.attribution p {
+  font-size: 0.8rem;
+  margin: 0.5rem;
+}
+
+.attribution a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.attribution a:hover,
+.attribution a:focus-visible {
+  color: #2e3d59;
+  text-decoration: none;
 }
