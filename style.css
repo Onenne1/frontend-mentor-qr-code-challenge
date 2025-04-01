@@ -96,7 +96,7 @@ p {
   .container {
     max-width: 22%;
     padding: 1.1vw;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
   }
 
   figcaption {
