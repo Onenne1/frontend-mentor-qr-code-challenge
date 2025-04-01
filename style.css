@@ -96,6 +96,7 @@ p {
   .container {
     max-width: 22%;
     padding: 1.1vw;
+    border-radius: 1rem;
   }
 
   figcaption {
@@ -112,7 +113,7 @@ p {
 }
 
 .attribution p {
-  font-size: 0.8rem;
+  font-size: inherit;
   margin: 0.5rem;
 }
 
